@@ -1,0 +1,119 @@
+.login-container {
+    background-color: black;
+    color: #fff;
+    height: 95vh;
+   
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.header-head {
+    font-size: 26px;
+    letter-spacing: 4px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.image {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.hr-line {
+    width: 100%;
+    border: 1px solid #343A40;
+}
+
+.body {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    padding: 50px;
+    border: 1px solid #343A40;
+    background-color: #111214;
+    border-radius: 5px;
+    margin-top: 70px;
+}
+
+.body-head {
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: center;
+
+}
+
+.body-button-1 {
+    width: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    font-size: 16px;
+    border: 2px solid #343A40;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color:  #CCCCCC;
+
+
+}
+
+.img {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    padding-right: 10px;
+    
+}
+
+.body-button-2 {
+    width: 200px;
+    margin-top: 30px;
+    background: linear-gradient(91.73deg, #4B63DD -2.99%, rgba(5, 36, 191, 0.99) 95.8%);
+    color: #fff;
+    padding: 15px 25px;
+    border: none;
+    font-size: 16px;
+
+
+}
+
+.body-para{
+    font-size: 16px;
+    margin-top: 30px;
+    color: #909296;
+
+}
+
+span {
+    color: #CCCCCC;
+}
+
+
+.footer {
+    background-color: #25262B;
+    color: #5C5F66;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 17px;
+}
