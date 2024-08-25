@@ -4,6 +4,7 @@ import Login from './components/Login';
 import Onebox from './components/Onebox';
 import { Routes, Route,} from 'react-router-dom';
 import AppContext from './context/AppContext';
+import Allinbox from './components/Allinbox';
 
 class App extends Component {
   state = {
@@ -22,6 +23,7 @@ class App extends Component {
         <Routes>
           <Route exact path="/" element={<Login />} />
           <Route exact path="/onebox" element={<Onebox />} />
+          <Route exact path='/allinbox' element={<Allinbox />} />
         </Routes>
         </AppContext.Provider>
       </div>
