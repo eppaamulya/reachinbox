@@ -9,8 +9,15 @@
     width: 370px;
     border-right: 1px solid  #343A40;
     padding: 0px 15px;
-   
-    
+      
+}
+
+.inbox-container-dark {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    border-right: 1px solid  #DFE3E8;
+    padding: 0px 15px;
 }
 
 .inbox-top {
@@ -26,6 +33,7 @@
     color: #4285F4;
     
 }
+
 .inbox-head {
     font-size: 23px;
     
@@ -126,8 +134,7 @@
 
 .inbox-cont-2 {
     padding-bottom: 10px;
-    margin-top: -15px;
-    
+    margin-top: -15px;   
     
 }
 
@@ -137,6 +144,7 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .inside-cont-2 {
     display: flex;
     flex-direction: row;
@@ -144,7 +152,10 @@
     
 }
 
-
+.hr-line-dark {
+    width: 100%;
+    background-color: #DFE3E8;
+}
 
 .round-blue {
     width: 11px;
@@ -154,7 +165,6 @@
     background-color: #5C7CFA;
     margin-right: 10px;
 }
-
 
 .round-green {
     width: 11px;
@@ -215,6 +225,7 @@
     padding-left: 10px;
     padding-right: 10px;
     font-size: 13px; 
+    
 }
 
 .tele {
@@ -231,8 +242,7 @@
     border-radius: 50px 50px 50px 50px;
     opacity: 0px;
     background-color: #626FE6;
-    margin-right: 10px;
-  
+    margin-right: 10px; 
 
 }
 
@@ -245,6 +255,7 @@
     flex-direction: column;
     flex-basis: 70%;
     padding: 0px 15px;
+    
 }
 
 .mail-cont-1 {
@@ -253,6 +264,16 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #343A40;
+   
+}
+
+.mail-cont-1-dark {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #DFE3E8;
+    background-color: white;
 }
 
 .mail-cont-2 {
@@ -271,13 +292,25 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #23272C;
     padding: 0px 10px;
+    background-color: #23272C;
     border-radius: 5px;
     border: 1px solid  #343A40;
     margin-right: 20px;
     
 }
+
+.mail-inside-2-dark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 1px solid  #DFE3E8;
+    
+}
+
 
 .mail-inside-3 {
     display: flex;
@@ -290,6 +323,18 @@
     margin-right: 20px;
     
 }
+
+.mail-inside-3-dark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin-right: 20px;
+    border: 1px solid  #DFE3E8;
+    
+}
+
 
 .mail-head {
     font-size: 24px;
@@ -307,6 +352,12 @@
     background-color: #23272C;
     padding: 20px 15px;
     border: 1px solid  #343A40;
+    border-radius: 5px;
+}
+
+.dot-icon-dark {
+    padding: 20px 15px;
+    border: 1px solid  #DFE3E8;
     border-radius: 5px;
 }
 
@@ -331,13 +382,23 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: 
-    #141517;
+    background-color:  #141517;
     border: 1px solid #23272C;
     padding: 0px 15px;
     border-radius: 5px;
     margin-top: 25px;
 
+}
+
+.mail-cont-3-dark {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid  #DFE3E8;
+    padding: 0px 15px;
+    border-radius: 5px;
+    margin-top: 25px;
 }
 
 .mail-inside-4 {
@@ -355,6 +416,10 @@
     font-size: 17px;
 }
 
+.mail-para-3-dark {
+    color: #172B4D;
+}
+
 .reply-button {
     color: white;
     background: linear-gradient(91.73deg, #4B63DD -2.99%, rgba(5, 36, 191, 0.99) 95.8%);
@@ -366,8 +431,7 @@
     align-items: center;
     border-radius: 5px;
     margin-left: 20px;
-    
-    
+       
 }
 
 .reply-icon {
@@ -381,10 +445,24 @@
     padding: 0px 15px;
 }
 
+.right-container-dark {
+    width: 350px;
+    border-left: 1px solid #DFE3E8;
+    padding: 0px 15px;
+}
+
 .mail-para-5 {
     background-color: #343A40;
     padding: 10px 20px;
     border-radius: 5px;
+
+}
+
+.mail-para-5-dark {
+    
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #DFE3E8;
 
 }
 
@@ -395,5 +473,10 @@
 }
 
 .mail-para-4 {
+    font-size: 17px;
+}
+
+.mail-para-4-dark {
+    color:  #637381;
     font-size: 17px;
 }

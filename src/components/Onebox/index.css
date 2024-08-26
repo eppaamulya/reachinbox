@@ -19,7 +19,6 @@
 }
 
 
-
 .sidebar {
     background-color: #101113;
     margin-top: 0px;
@@ -126,12 +125,14 @@
     background-color: transparent;
     border: none;
 }
+
 .mode-icon {
     color: #E8C364;
     font-size: 24px;
     margin-top: 10px;
     margin-right: 15px;
 }
+
 .down-icon {
     font-size: 24px;
     margin-top: 17px;

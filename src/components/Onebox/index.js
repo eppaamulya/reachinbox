@@ -13,7 +13,7 @@ import { BiLogoTelegram } from "react-icons/bi";
 import { FaInbox } from "react-icons/fa6";
 import { BiSolidBarChartAlt2 } from "react-icons/bi";
 import { FaThList } from "react-icons/fa";
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 
@@ -60,10 +60,9 @@ const Onebox = () => {
                                     <button className='mode-button' type='button' onClick={onToggleTheme}><MdOutlineLightMode className='mode-icon' /></button>
                                     <p>Tim's Workspace</p>
                                     <IoIosArrowDown className='down-icon' />
-                                </div>
-                                
+                                </div>    
                             </div>
-                            <div className=''>
+                            <div>
                                 {showAllInboxes ? (
                                     <Allinbox />
                                 ) : (
@@ -72,8 +71,7 @@ const Onebox = () => {
                                         <h1 className='middle-cont-head'>It’s the beginning of a legendary sales pipeline </h1>
                                         <p className='middle-cont-para-dark'>When you have inbound E-mails <br /> you’ll see them here</p>
                                     </div>
-                                )}
-                                
+                                )}   
                             </div>
                         </div>
                     </div>
@@ -97,10 +95,9 @@ const Onebox = () => {
                                     <button className='mode-button' type='button' onClick={onToggleTheme}><MdOutlineLightMode className='mode-icon' /></button>
                                     <p>Tim's Workspace</p>
                                     <IoIosArrowDown className='down-icon' />
-                                </div>
-                                
+                                </div>    
                             </div>
-                            <div className=''>
+                            <div>
                             {showAllInboxes ? (
                                     <Allinbox />
                                 ) : (
@@ -116,8 +113,7 @@ const Onebox = () => {
                     </>
                 )
             }}
-        </AppContext.Consumer>
-        
+        </AppContext.Consumer>    
     )
 }
 
